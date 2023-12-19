@@ -1,0 +1,16 @@
+.menuBox {
+  display: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  .menuBox {
+    display: block;
+  }
+
+
+}

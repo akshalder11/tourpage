@@ -1,0 +1,19 @@
+.button {
+  color: #fff;
+  width: 156px;
+  font-size: 16px;
+  background-color: #232829;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1))
+    drop-shadow(1px 11px 11px rgba(0, 0, 0, 0.09))
+    drop-shadow(2px 25px 15px rgba(0, 0, 0, 0.05))
+    drop-shadow(4px 44px 18px rgba(0, 0, 0, 0.01))
+    drop-shadow(6px 68px 19px rgba(0, 0, 0, 0));
+}
+
+.rightSecContainer {
+  margin: 30px auto;
+}

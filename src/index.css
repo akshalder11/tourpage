@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Importing fonts */
+@font-face {
+  font-family: Vi_BD;
+  src: url(./assets/fonts/Vi-Bold.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Vi_HV;
+  src: url(./assets/fonts/Vi-Heavy.ttf);
+}
+
+@font-face {
+  font-family: Vi_LT;
+  src: url(./assets/fonts/Vi-Light.ttf);
+}
+
+@font-face {
+  font-family: Vi_MD;
+  src: url(./assets/fonts/Vi-Medium.ttf);
+}
+
+@font-face {
+  font-family: Vi_RG;
+  src: url(./assets/fonts/Vi-Regular.ttf);
+}
+
+
+/* Main CSS */
+*{
+  margin: 0;
+  font-family: Vi_RG, sans-serif;
+  box-sizing: border-box;
 }

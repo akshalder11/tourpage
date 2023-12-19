@@ -1,0 +1,84 @@
+.heroContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px 0;
+}
+
+.leftHero {
+  max-width: 550px;
+}
+
+.heroSubHead {
+  color: #232829;
+  font-family: Vi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heroHead {
+  color: #232829;
+  font-family: Vi;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: -8px 0 8px 0;
+}
+
+.heroDesc {
+  color: #232829;
+  font-family: Vi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heroButton {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.primaryButton {
+  color: #fff;
+  text-align: center;
+  font-family: Vi;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background: #232829;
+  border: none;
+  margin-right: 1rem;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2),
+    0px 10px 10px 0px rgba(0, 0, 0, 0.17), 0px 23px 14px 0px rgba(0, 0, 0, 0.1),
+    0px 41px 16px 0px rgba(0, 0, 0, 0.03), 0px 64px 18px 0px rgba(0, 0, 0, 0);
+}
+
+.secondaryButton {
+  color: #232829;
+  text-align: center;
+  font-family: Vi;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background: #f1f1f1;
+  border: none;
+  margin-right: 1rem;
+  box-shadow: 0px 39px 87px 0px rgba(0, 0, 0, 0.05),
+    0px 158px 158px 0px rgba(0, 0, 0, 0.04),
+    0px 355px 213px 0px rgba(0, 0, 0, 0.03),
+    0px 630px 252px 0px rgba(0, 0, 0, 0.01),
+    0px 985px 276px 0px rgba(0, 0, 0, 0);
+}

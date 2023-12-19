@@ -1,0 +1,29 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 96%;
+  height: 90px;
+  padding: 0 30px;
+  border-radius: 10px;
+  position: fixed;
+  top: 22px;
+  left: 50%;
+  transform: translate(-50%);
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 39px 87px 0px rgba(0, 0, 0, 0.05),
+    0px 158px 158px 0px rgba(0, 0, 0, 0.04),
+    0px 355px 213px 0px rgba(0, 0, 0, 0.03),
+    0px 630px 252px 0px rgba(0, 0, 0, 0.01),
+    0px 985px 276px 0px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(5px);
+}
+
+@media screen and (max-width: 980px) {
+  .navContainer {
+    top: 10px;
+    padding: 0 35px 0 10px;
+    z-index: 99;
+  }
+}
