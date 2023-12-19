@@ -24,8 +24,16 @@
 }
 
 .subText {
-  color: #7C7C7C;
+  color: #7c7c7c;
   font-family: Vi_MD;
   font-size: 14px;
 }
+
+@media screen and (max-width: 980px ) and (min-width: 340px) {
+  .cardImage {
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
+
 

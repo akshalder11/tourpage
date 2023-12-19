@@ -1,3 +1,7 @@
+.cardSection {
+  margin: 0 16px;
+}
+
 .cardContainer {
   margin-bottom: 150px;
 }
@@ -28,8 +32,14 @@
     align-items: center;
   }
 
-  .cardSectionHead,
+  .cardSectionHead {
+    text-align: center;
+    font-size: 30px;
+  }
   .cardSectionDesc {
+    font-size: 16px;
     text-align: center;
   }
+
+  
 }

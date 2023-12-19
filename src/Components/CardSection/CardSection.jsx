@@ -6,7 +6,7 @@ import styles from "./CardSection.module.css";
 const CardSection = () => {
   return (
     <div>
-      <Container>
+      <Container maxWidth={"lg"}>
           <div className={styles.headSection}>
             <p className={styles.cardSectionHead}>Ongoing Events</p>
             <p className={styles.cardSectionDesc}>

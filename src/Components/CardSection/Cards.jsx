@@ -15,7 +15,7 @@ const Cards = () => {
 
   return (
     <div className={styles.cardBlock}>
-      <div style={cardImage}></div>
+      <div style={cardImage} className={styles.cardImage}></div>
       <div className={styles.cardDetails}>
         <div className={styles.firstLine}>
           <p className={styles.mainText}>Har Ki Dun Trek</p>
