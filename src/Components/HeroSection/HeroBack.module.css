@@ -1,9 +1,12 @@
+.heroBack {
+  margin: 250px 0 150px 0;
+}
+
 .heroContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 250px 0;
 }
 
 .leftHero {
@@ -74,7 +77,7 @@
     0px 985px 276px 0px rgba(0, 0, 0, 0);
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
   .heroContainer {
     margin: 200px 0;
     justify-content: center;
@@ -99,17 +102,20 @@
     font-size: 18px;
     margin: 20px 0;
   }
-  
+
   .heroButton {
-    margin-bottom : 70px;
+    justify-content: center;
+    margin-bottom: 70px;
   }
 
-  .primaryButton, .secondaryButton {
+  .primaryButton,
+  .secondaryButton {
+    margin-top: 16px;
     font-size: 14px;
   }
 
   .rightHero {
-    width : 550px !important;
+    width: 550px !important;
     height: 350px !important;
     border-radius: 30px !important;
   }

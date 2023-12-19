@@ -1,0 +1,31 @@
+.cardBlock {
+  display: inline-block;
+  margin: 0 13px 32px 13px;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.firstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.mainText {
+  color: #232829;
+  font-family: Vi_BD;
+  font-size: 16px;
+}
+
+.subText {
+  color: #7C7C7C;
+  font-family: Vi_MD;
+  font-size: 14px;
+}
+

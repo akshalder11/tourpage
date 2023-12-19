@@ -5,17 +5,16 @@
 }
 
 .links {
-  margin-right: 86px;
+  margin-right: 72px;
   text-decoration: none;
   color: var(--color-white);
   text-align: center;
   font-size: 1.1rem;
-  font-family: Vi_MD;  
+  font-family: Vi_MD;
 }
 
 @media screen and (max-width: 980px) {
   .linksContainer {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
@@ -32,7 +31,7 @@
     transform: translateY(-120%);
     transition: 0.6s ease-in-out;
   }
-  
+
   .linksContainerActive {
     display: flex;
     flex-direction: column;
@@ -50,7 +49,6 @@
     left: 0;
     transform: translateY(0);
     transition: 0.6s ease-in-out;
-
   }
 
   .links {
