@@ -7,7 +7,9 @@
 }
 
 .leftHero {
+  display: flex;
   max-width: 550px;
+  flex-direction: column;
 }
 
 .heroSubHead {
@@ -56,7 +58,7 @@
   border-radius: 13px;
   background: #232829;
   border: none;
-  margin-right: 1rem;
+  margin-right: 16px;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2),
     0px 10px 10px 0px rgba(0, 0, 0, 0.17), 0px 23px 14px 0px rgba(0, 0, 0, 0.1),
     0px 41px 16px 0px rgba(0, 0, 0, 0.03), 0px 64px 18px 0px rgba(0, 0, 0, 0);
@@ -81,4 +83,45 @@
     0px 355px 213px 0px rgba(0, 0, 0, 0.03),
     0px 630px 252px 0px rgba(0, 0, 0, 0.01),
     0px 985px 276px 0px rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 980px) {
+  .heroContainer {
+    margin: 200px 0;
+    justify-content: center;
+  }
+
+  .leftHero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroSubHead {
+    font-size: 28px;
+  }
+
+  .heroHead {
+    font-size: 50px;
+    margin: 4px 0;
+  }
+
+  .heroDesc {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .heroButton {
+    margin-bottom : 70px;
+  }
+
+  .primaryButton, .secondaryButton {
+    font-size: 14px;
+  }
+
+  .rightHero {
+    width : 550px !important;
+    height: 350px !important;
+    border-radius: 30px !important;
+  }
 }

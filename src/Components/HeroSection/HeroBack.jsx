@@ -30,7 +30,7 @@ const HeroBack = () => {
               <button className={styles.secondaryButton}>Explore More</button>
             </div>
           </div>
-          <div style={rightHero}>{/* <img src={image} alt="" /> */}</div>
+          <div style={rightHero} className={styles.rightHero}></div>
         </div>
       </Container>
     </div>
