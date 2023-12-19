@@ -14,29 +14,22 @@
 
 .heroSubHead {
   color: #232829;
-  font-family: Vi;
+  font-family: Vi_MD;
   font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
 }
 
 .heroHead {
   color: #232829;
-  font-family: Vi;
+  font-family: Vi_HV;
   font-size: 64px;
-  font-style: normal;
-  font-weight: 900;
   line-height: normal;
   margin: -8px 0 8px 0;
 }
 
 .heroDesc {
   color: #232829;
-  font-family: Vi;
+  font-family: Vi_RG;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .heroButton {
@@ -48,10 +41,8 @@
 .primaryButton {
   color: #fff;
   text-align: center;
-  font-family: Vi;
+  font-family: Vi_MD;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
   padding: 16px 35px;
   justify-content: center;
   align-items: center;
@@ -67,10 +58,8 @@
 .secondaryButton {
   color: #232829;
   text-align: center;
-  font-family: Vi;
+  font-family: Vi_MD;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
   padding: 16px 35px;
   justify-content: center;
   align-items: center;
