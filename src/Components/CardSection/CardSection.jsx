@@ -7,8 +7,11 @@ import Slider from "react-slick";
 const CardSection = () => {
   var settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    // infinite: false,
+    arrows: false,
+    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 5000,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -16,6 +19,7 @@ const CardSection = () => {
       {
         breakpoint: 1151,
         settings: {
+          arrows: false,
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: false,
@@ -25,6 +29,7 @@ const CardSection = () => {
       {
         breakpoint: 980,
         settings: {
+          arrows: false,
           slidesToShow: 2,
           slidesToScroll: 1,
           // initialSlide: 0,
@@ -33,6 +38,7 @@ const CardSection = () => {
       {
         breakpoint: 748,
         settings: {
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1,
         },
