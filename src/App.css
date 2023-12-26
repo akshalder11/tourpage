@@ -1,0 +1,14 @@
+.slick-dots li button:before {
+    color: rgb(179, 178, 178) !important;
+    font-size: 8px !important;
+    margin-top: 10px;
+  }
+  .slick-dots button {
+    /* background-color: blue !important; */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #232829 !important;
+    font-size: 12px !important;
+  }

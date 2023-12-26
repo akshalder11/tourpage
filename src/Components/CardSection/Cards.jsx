@@ -14,14 +14,16 @@ const Cards = () => {
   };
 
   return (
-    <div className={styles.cardBlock}>
-      <div style={cardImage} className={styles.cardImage}></div>
-      <div className={styles.cardDetails}>
-        <div className={styles.firstLine}>
-          <p className={styles.mainText}>Har Ki Dun Trek</p>
-          <p className={styles.subText}>5N/6D</p>
+    <div className={styles.cardFlex}>
+      <div className={styles.cardBlock}>
+        <div style={cardImage} className={styles.cardImage}></div>
+        <div className={styles.cardDetails}>
+          <div className={styles.firstLine}>
+            <p className={styles.mainText}>Har Ki Dun Trek</p>
+            <p className={styles.subText}>5N/6D</p>
+          </div>
+          <p className={styles.subText}>Random Name</p>
         </div>
-        <p className={styles.subText}>Random Name</p>
       </div>
     </div>
   );

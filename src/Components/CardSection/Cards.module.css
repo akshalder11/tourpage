@@ -29,11 +29,18 @@
   font-size: 14px;
 }
 
+.cardFlex {
+  display: flex;
+  justify-content: center;
+}
+
+
 @media screen and (max-width: 980px ) and (min-width: 340px) {
   .cardImage {
     width: 300px !important;
     height: 300px !important;
   }
+  
 }
 
 

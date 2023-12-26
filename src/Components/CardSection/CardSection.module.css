@@ -24,14 +24,8 @@
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 1151px) {
-  .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
 
+@media screen and (max-width: 1151px) {
   .cardSectionHead {
     text-align: center;
     font-size: 30px;
