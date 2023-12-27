@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import styles from "./Cards.module.css";
 import image from "../../assets/images/cardImage.webp";
 
@@ -15,6 +16,7 @@ const Cards = () => {
 
   return (
     <div className={styles.cardFlex}>
+      <Link to='/details'>
       <div className={styles.cardBlock}>
         <div style={cardImage} className={styles.cardImage}></div>
         <div className={styles.cardDetails}>
@@ -25,6 +27,7 @@ const Cards = () => {
           <p className={styles.subText}>Random Name</p>
         </div>
       </div>
+      </Link>
     </div>
   );
 };

@@ -1,15 +1,17 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./Components/MainRoutes/HomePage";
+import DetailsPage from "./Components/MainRoutes/DetailsPage";
 import Navbar from "./Components/Navbar/Navbar";
-import HeroBack from "./Components/HeroSection/HeroBack";
-import CardSection from "./Components/CardSection/CardSection";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HeroBack />
-      <CardSection />
-      <CardSection />
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/details" element={<DetailsPage/>}/>
+      </Routes>
     </div>
   );
 }

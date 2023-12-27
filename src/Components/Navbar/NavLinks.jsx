@@ -10,7 +10,7 @@ const NavLinks = ({ menuIcon }) => {
     >
       {navData.map((val, index) => {
         return (
-          <a href="" className={styles.links}>
+          <a href="" className={styles.links} key={index}>
             {val.title}
           </a>
         );
